@@ -4,12 +4,6 @@ import socket
 # ser = serial.Serial('/dev/cu.usbmodem14501', 9600) # Establish the connection on a specific port
 
 
-#counter = 32 # Below 32 everything in ASCII is gibberish
-#while True:
-#     print(ser.readline())
-     
-
-
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 print("connecting")
